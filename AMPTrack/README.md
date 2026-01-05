@@ -1,7 +1,7 @@
 # 🔎 AMPTrack
 **Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event based Visual Object Tracking** 
 
-**Authors**: Shiao Wang, Xiao Wang, Haonan Zhao, Jiarui Xu, Bo Jiang, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang
+Shiao Wang, Xiao Wang, Haonan Zhao, Jiarui Xu, Bo Jiang, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang
 
 [[Paper](https://arxiv.org/abs/2309.14611)]
 [[Code](https://github.com/Event-AHU/EventVOT_Benchmark)]
