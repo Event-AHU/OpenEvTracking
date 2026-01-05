@@ -26,11 +26,6 @@ An overview of our proposed Amplitude–Phase attention and Motion-guided sparsi
 
 # :hammer: Environment 
 
-**Tracking Results on the COESOT dataset**
-
-[[Tracking Results](https://pan.baidu.com/s/1vkC8fNisBqmIPjXzWvveWA?pwd=wsad)]
-
-
 Install env
 ```
 conda create -n amptrack python=3.10
@@ -48,6 +43,9 @@ Download pretrained model [[SUTRACK_ep0180.pth.tar](https://pan.baidu.com/s/187w
 
 Download the trained model weight from [[AMPTrack_ep0050.pth](https://pan.baidu.com/s/1jeNPb3Xod_4X0lshTQlSBg?pwd=AHUE)] and put it under `$/output/checkpoints/train/amptrack/amptrack_coesot` for testing directly.
 
+**Tracking Results on the COESOT dataset**
+
+[[Tracking Results](https://pan.baidu.com/s/1vkC8fNisBqmIPjXzWvveWA?pwd=wsad)]
 
 ## Train & Test
 ```
