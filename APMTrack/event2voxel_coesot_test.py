@@ -68,7 +68,7 @@ if __name__ == '__main__':
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     training_subset = False # False
     data_path = '/wangx/DATA/Dataset/COESOT/test/'
-    save_path = '/wangx/DATA/Dataset/COESOT/new_voxel2/test/'
+    save_path = '/wangx/DATA/Dataset/COESOT/new_voxel/test/'
 
     video_files = sorted(os.listdir(data_path))
     dvs_img_interval = 1
