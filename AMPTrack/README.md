@@ -44,7 +44,7 @@ lib/test/evaluation/local.py  # paths about testing
 
 Download pretrained model [[SUTRACK_ep0180.pth.tar](https://pan.baidu.com/s/187w8ejD4VZZBz6buPKMTQA?pwd=AHUE)] and put it under `$/pretrained_models` for training.
 
-Download the trained model from [[AMPTrack_ep0050.pth](https://pan.baidu.com/s/1jeNPb3Xod_4X0lshTQlSBg?pwd=AHUE)] and put it under `$/output/checkpoints/train/amptrack/amptrack_coesot` for testing directly.
+Download the trained model weight from [[AMPTrack_ep0050.pth](https://pan.baidu.com/s/1jeNPb3Xod_4X0lshTQlSBg?pwd=AHUE)] and put it under `$/output/checkpoints/train/amptrack/amptrack_coesot` for testing directly.
 
 
 ## Train & Test
