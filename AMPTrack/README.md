@@ -24,18 +24,11 @@ Existing RGB–Event visual object tracking approaches primarily rely on convent
 
 # :hammer: Environment 
 
-**Checkpoint and Result on COESOT**
+**Checkpoint and Tracking Results on COESOT**
 
-[[HDETrack_S_ep0050.pth](https://pan.baidu.com/s/1GigDXtkSd9oE04dUM3W6Nw?pwd=wsad)] Passcode：wsad
+[[AMPTrack_ep0050.pth](https://pan.baidu.com/s/1jeNPb3Xod_4X0lshTQlSBg?pwd=AHUE)]
+[[Tracking Results](https://pan.baidu.com/s/1vkC8fNisBqmIPjXzWvveWA?pwd=wsad)]
 
-[[HDETrackV2_ep0050.pth](https://pan.baidu.com/s/1vOhcw87HpgPoSprsiL6Hew?pwd=wsad)] Passcode：wsad
-
-[[Raw Results](https://pan.baidu.com/s/1vkC8fNisBqmIPjXzWvveWA?pwd=wsad)] Passcode：wsad
-
-
-<p align="center">
-  <img width="85%" src="./figures/HDETrack.jpg" alt="Framework"/>
-</p>
 
 Install env
 ```
