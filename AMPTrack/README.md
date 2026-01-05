@@ -58,10 +58,10 @@ bash test.sh
 
 
 # :chart_with_upwards_trend: Benchmark Results
-The overall performance evaluation, including SR, PR, NPR.
+The overall performance evaluation, including SR, PR.
 
 <p align="left">
-  <img width="100%" src="./figures/SRPRNPR.png" alt="SRPRNPR"/>
+  <img width="100%" src="./figures/COESOT.png" alt="SRPR"/>
 </p>
 
 
