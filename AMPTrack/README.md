@@ -3,7 +3,7 @@
 
 Shiao Wang, Xiao Wang, Haonan Zhao, Jiarui Xu, Bo Jiang, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang
 
-[[Paper](https://arxiv.org/abs/2309.14611)]
+[[Paper]()]
 [[Code](https://github.com/Event-AHU/OpenEvTracking/edit/main/AMPTrack/)]
 
 
