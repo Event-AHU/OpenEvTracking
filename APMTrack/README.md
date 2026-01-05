@@ -30,7 +30,7 @@ Install env
 ```
 conda create -n amptrack python=3.10
 conda activate amptrack
-bash install.sh
+pip install torch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 --index-url https://download.pytorch.org/whl/cu118
 ```
 
 You can also modify paths by editing these two files
