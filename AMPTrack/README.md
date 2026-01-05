@@ -4,8 +4,7 @@
 Shiao Wang, Xiao Wang, Haonan Zhao, Jiarui Xu, Bo Jiang, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang
 
 [[Paper](https://arxiv.org/abs/2309.14611)]
-[[Code](https://github.com/Event-AHU/EventVOT_Benchmark)]
-[[DemoVideo](https://youtu.be/FcwH7tkSXK0?si=GHOG7rfw4-GFd9dz)] 
+[[Code](https://github.com/Event-AHU/OpenEvTracking/edit/main/AMPTrack/)]
 
 <div align="center">
 
