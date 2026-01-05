@@ -70,13 +70,7 @@ The overall performance evaluation on the COESOT dataset.
 
 # :newspaper: Citation 
 ```bibtex
-@inproceedings{wang2024event,
-  title={Event stream-based visual object tracking: A high-resolution benchmark dataset and a novel baseline},
-  author={Wang, Xiao and Wang, Shiao and Tang, Chuanming and Zhu, Lin and Jiang, Bo and Tian, Yonghong and Tang, Jin},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={19248--19257},
-  year={2024}
-}
+
 ```
 
 
