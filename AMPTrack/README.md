@@ -50,69 +50,13 @@ Download the trained model weight from [[AMPTrack_ep0050.pth](https://pan.baidu.
 ## Train & Test
 ```
 # train
-python tracking/train.py --script hdetrack --config hdetrack_eventvot --save_dir ./output --mode single --nproc_per_node 1 --use_wandb 0
+bash train.sh
 
 # test
-python tracking/test.py hdetrack hdetrack_eventvot --dataset eventvot --threads 1 --num_gpus 1
+bash test.sh
 ```
 
 
-### Test FLOPs, and Speed
-*Note:* The speeds reported in our paper were tested on a single RTX 3090 GPU.
-
-
-# :dvd: EventVOT Dataset 
-
-
-* **Event Image version** (train.zip 28.16GB, val.zip 703M, test.zip 9.94GB)
-
-:floppy_disk: **Baidu Netdisk**: link：https://pan.baidu.com/s/1NLSnczJ8gnHqF-69bE7Ldg?pwd=wsad code：wsad
-
-
-* **Complete version** (Event Image + Raw Event data, train.zip 180.7GB, val.zip 4.34GB, test.zip 64.88GB)
-  
-:floppy_disk: **Baidu Netdisk**: link：https://pan.baidu.com/s/1ZTX7O5gWlAdpKmd4R9VhYA?pwd=wsad code：wsad
-  
-:floppy_disk: **Dropbox**: https://www.dropbox.com/scl/fo/fv2e3i0ytrjt14ylz81dx/h?rlkey=6c2wk2z7phmbiwqpfhhe29i5p&dl=0
-
-* If you want to download the dataset directly on the Ubuntu terminal using a script, please try this:
-```
-wget -O EventVOT_dataset.zip https://www.dropbox.com/scl/fo/fv2e3i0ytrjt14ylz81dx/h?rlkey=6c2wk2z7phmbiwqpfhhe29i5p"&"dl=1
-```
-
-The directory should have the below format:
-```Shell
-├── EventVOT dataset
-    ├── Training Subset (841 videos, 180.7GB)
-        ├── recording_2022-10-10_17-28-38
-            ├── img
-            ├── recording_2022-10-10_17-28-38.csv
-            ├── groundtruth.txt
-            ├── absent.txt
-        ├── ... 
-    ├── Testing Subset (282 videos, 64.88GB)
-        ├── recording_2022-10-10_17-28-24
-            ├── img
-            ├── recording_2022-10-10_17-28-24.csv
-            ├── groundtruth.txt
-            ├── absent.txt
-        ├── ...
-    ├── validating Subset (18 videos, 4.34GB)
-        ├── recording_2022-10-10_17-31-07
-            ├── img
-            ├── recording_2022-10-10_17-31-07.csv
-            ├── groundtruth.txt
-            ├── absent.txt
-        ├── ... 
-```
-Normally, we only need the "img" and "..._voxel" files from the EventVOT dataset for training. During testing, we only input "img" for inference. As shown in the following figure,
-<p align="center">
-  <img src="./figures/EventVOT_dataset.png" alt="EventVOT_files" width="600"/>
-</p>
-
-Note: Our EventVOT dataset is an unimodal Event Dataset, if you need a multimodal RGB-E dataset, please refer to [[COESOT](https://github.com/Event-AHU/COESOT/tree/main)]， [[VisEvent](https://github.com/wangxiao5791509/VisEvent_SOT_Benchmark)], or [[FELT](https://github.com/Event-AHU/FELT_SOT_Benchmark)].
-
-# :triangular_ruler: Evaluation Toolkit
 
 1. Download the EventVOT_eval_toolkit from [EventVOT_eval_toolki (Passcode：wsad)](https://pan.baidu.com/s/1rDsLIsNLxN6Gh9u-EdElyA?pwd=wsad), and open it with Matlab (over Matlab R2020).
 2. add your tracking results and [baseline results (Passcode：wsad)](https://pan.baidu.com/s/1xScOxwW_y2lzoXrYtJX-RA?pwd=wsad)  in `$/eventvot_tracking_results/` and modify the name in `$/utils/config_tracker.m`
