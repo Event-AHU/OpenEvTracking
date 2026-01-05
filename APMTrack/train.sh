@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python tracking/train.py --script apmtrack --config apmtrack_coesot --save_dir ./output --mode single --nproc_per_node 1 --use_wandb 0
