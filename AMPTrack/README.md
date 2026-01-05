@@ -3,6 +3,7 @@
 <img src="https://github.com/Event-AHU/OpenEvTracking/blob/main/AMPTrack/figures/framework.jpg" width="600">
   
 **Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event based Visual Object Tracking** 
+
 Shiao Wang, Xiao Wang, Haonan Zhao, Jiarui Xu, Bo Jiang, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang
 
 [[Paper](https://arxiv.org/abs/2309.14611)]
