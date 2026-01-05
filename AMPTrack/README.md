@@ -66,7 +66,7 @@ The overall performance evaluation, including SR, PR, NPR.
 
 
 # :cupid: Acknowledgement 
-* Thanks for the  [CEUTrack](https://github.com/Event-AHU/COESOT), [OSTrack](https://github.com/botaoye/OSTrack), [PyTracking](https://github.com/visionml/pytracking) and [ViT](https://github.com/rwightman/pytorch-image-models) library for a quickly implement.
+* Thanks for the  [CEUTrack](https://github.com/Event-AHU/COESOT), [OSTrack](https://github.com/botaoye/OSTrack), [PyTracking](https://github.com/visionml/pytracking) and [ViT](https://github.com/rwightman/pytorch-image-models), [SUTrack]([PyTracking](https://github.com/visionml/pytracking) and [ViT](https://github.com/rwightman/pytorch-image-models) library for a quickly implement.
 
 # :newspaper: Citation 
 ```bibtex
@@ -78,17 +78,6 @@ The overall performance evaluation, including SR, PR, NPR.
   year={2024}
 }
 ```
-
-
-## Star History
-
-<a href="https://star-history.com/#Event-AHU/EventVOT_Benchmark&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Event-AHU/EventVOT_Benchmark&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Event-AHU/EventVOT_Benchmark&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Event-AHU/EventVOT_Benchmark&type=Date" />
- </picture>
-</a>
 
 
 
