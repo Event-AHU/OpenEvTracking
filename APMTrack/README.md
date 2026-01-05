@@ -13,10 +13,10 @@ Existing RGB–Event visual object tracking approaches primarily rely on convent
 
 ### Framework 
 
-
 <p align="center">
-<img src="https://github.com/Event-AHU/OpenEvTracking/blob/main/AMPTrack/figures/framework.jpg" alt="framework" width="850"/>
+  <img width="50%" src="./figures/framework.jp">
 </p>
+
 An overview of our proposed Amplitude–Phase attention and Motion-guided sparsification framework for efficient RGB-Event tracking, called APMTrack. Specifically, RGB and event inputs are first decoupled into amplitude and phase in the frequency domain, allowing high-frequency event information to enhance RGB modality via amplitude and phase attention. The event encoder extracts motion cues, which are refined by the FFT-based differential ViT, and subsequently guide a spatial sparsification module for adaptive Top-$K$ token selection. The selected search tokens, combined with template features, are processed by the backbone, and the tracking head predicts the final target location.
 
 
