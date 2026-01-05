@@ -9,7 +9,7 @@ Shiao Wang, Xiao Wang, Haonan Zhao, Jiarui Xu, Bo Jiang, Lin Zhu, Xin Zhao, Yong
 
 <div align="center">
 
-<img src="https://github.com/Event-AHU/OpenEvTracking/blob/main/AMPTrack/figures/framework.jpg" width="999">
+<img src="https://github.com/Event-AHU/OpenEvTracking/blob/main/AMPTrack/figures/framework.jpg" width="888">
   
 
 
