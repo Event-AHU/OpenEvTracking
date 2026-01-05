@@ -61,7 +61,7 @@ bash test.sh
 The overall performance evaluation on the COESOT dataset.
 
 <p align="left">
-  <img width="40%" src="./figures/COESOT.png" alt="SRPR"/>
+  <img width="50%" src="./figures/COESOT.png" alt="SRPR"/>
 </p>
 
 
