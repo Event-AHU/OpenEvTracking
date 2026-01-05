@@ -26,9 +26,7 @@ Existing RGB–Event visual object tracking approaches primarily rely on convent
 
 **Checkpoint and Tracking Results on COESOT**
 
-[[AMPTrack_ep0050.pth](https://pan.baidu.com/s/1jeNPb3Xod_4X0lshTQlSBg?pwd=AHUE)]
-
-[[Tracking Results](https://pan.baidu.com/s/1vkC8fNisBqmIPjXzWvveWA?pwd=wsad)]
+[[AMPTrack_ep0050.pth](https://pan.baidu.com/s/1jeNPb3Xod_4X0lshTQlSBg?pwd=AHUE)], [[Tracking Results](https://pan.baidu.com/s/1vkC8fNisBqmIPjXzWvveWA?pwd=wsad)]
 
 
 Install env
