@@ -1,7 +1,7 @@
 # 🔎 APMTrack
 **Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event based Visual Object Tracking** 
 
-Shiao Wang, Xiao Wang, Haonan Zhao, Jiarui Xu, Bo Jiang, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang
+Shiao Wang, Xiao Wang*, Haonan Zhao, Jiarui Xu, Bo Jiang*, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang
 
 [[Paper]()]
 [[Code](https://github.com/Event-AHU/OpenEvTracking/edit/main/AMPTrack/)]
