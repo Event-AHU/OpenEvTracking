@@ -31,31 +31,21 @@ Existing RGB–Event visual object tracking approaches primarily rely on convent
 
 Install env
 ```
-conda create -n hdetrack python=3.8
-conda activate hdetrack
+conda create -n amptrack python=3.10
+conda activate amptrack
 bash install.sh
 ```
 
-Run the following command to set paths for this project
-```
-python tracking/create_default_local_file.py --workspace_dir . --data_dir ./data --save_dir ./output
-```
-
-After running this command, you can also modify paths by editing these two files
+You can also modify paths by editing these two files
 ```
 lib/train/admin/local.py  # paths about training
 lib/test/evaluation/local.py  # paths about testing
 ```
 
-Then, put the tracking datasets EventVOT in `./data`. 
+Download pre-trained [[SUTRACK_ep0180.pth.tar](https://pan.baidu.com/s/187w8ejD4VZZBz6buPKMTQA?pwd=AHUE)] and put it under `$/pretrained_models` for training.
 
-Download pre-trained [MAE ViT-Base weights](https://pan.baidu.com/s/1M1_CPXgH3PHr7MwXP-G5VQ?pwd=wsad) and put it under `$/pretrained_models`
+Download the trained model weight from [[AMPTrack_ep0050.pth](https://pan.baidu.com/s/1jeNPb3Xod_4X0lshTQlSBg?pwd=AHUE)] and put it under `$/output/checkpoints/train/amptrack/amptrack_coesot` for testing directly.
 
-Download teacher pre-trained [CEUTrack_ep0050.pth](https://pan.baidu.com/s/1Z6jA6bnoY8sBSbRsxaEo4w?pwd=wsad) and put it under `$/pretrained_models`
-
-Download the trained model weights from [[HDETrack_S_ep0050.pth](https://pan.baidu.com/s/1GigDXtkSd9oE04dUM3W6Nw?pwd=wsad)] and put it under `$/output/checkpoints/train/hdetrack/hdetrack_eventvot` for test directly.
-
-You can also access [Weight files in Dropbox](https://www.dropbox.com/scl/fo/8novqy1dg8enbjlocxb1p/AEFy8K2d0TkbNcdF1xtcvfQ?rlkey=kf5py912x2cmk6txc35xyasv6&st=d14w1433&dl=0) to download these weight files.
 
 ## Train & Test
 ```
