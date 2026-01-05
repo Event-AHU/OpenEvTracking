@@ -58,10 +58,10 @@ bash test.sh
 
 
 # :chart_with_upwards_trend: Benchmark Results
-The overall performance evaluation, including SR, PR.
+The overall performance evaluation on the COESOT dataset.
 
 <p align="left">
-  <img width="100%" src="./figures/COESOT.png" alt="SRPR"/>
+  <img width="50%" src="./figures/COESOT.png" alt="SRPR"/>
 </p>
 
 
