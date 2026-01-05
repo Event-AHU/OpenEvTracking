@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python tracking/test.py amptrack amptrack_coesot --dataset coesot --threads 1 --num_gpus 1
