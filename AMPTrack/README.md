@@ -24,9 +24,9 @@ Existing RGB–Event visual object tracking approaches primarily rely on convent
 
 # :hammer: Environment 
 
-**Checkpoint and Tracking Results on COESOT**
+**Tracking Results on COESOT dataset**
 
-[[AMPTrack_ep0050.pth](https://pan.baidu.com/s/1jeNPb3Xod_4X0lshTQlSBg?pwd=AHUE)], [[Tracking Results](https://pan.baidu.com/s/1vkC8fNisBqmIPjXzWvveWA?pwd=wsad)]
+[[Tracking Results](https://pan.baidu.com/s/1vkC8fNisBqmIPjXzWvveWA?pwd=wsad)]
 
 
 Install env
