@@ -24,7 +24,7 @@ Existing RGB–Event visual object tracking approaches primarily rely on convent
 
 # :hammer: Environment 
 
-**Checkpoints and Results**
+**Checkpoint and Result on COESOT**
 
 [[HDETrack_S_ep0050.pth](https://pan.baidu.com/s/1GigDXtkSd9oE04dUM3W6Nw?pwd=wsad)] Passcode：wsad
 
