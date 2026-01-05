@@ -24,7 +24,7 @@ Existing RGB–Event visual object tracking approaches primarily rely on convent
 
 # :hammer: Environment 
 
-**Tracking Results on COESOT dataset**
+**Tracking Results on the COESOT dataset**
 
 [[Tracking Results](https://pan.baidu.com/s/1vkC8fNisBqmIPjXzWvveWA?pwd=wsad)]
 
