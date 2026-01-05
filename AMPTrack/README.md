@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/Event-AHU/OpenEvTracking/blob/main/AMPTrack/figures/framework.jpg" width="600">
+<img src="https://github.com/Event-AHU/OpenEvTracking/blob/main/AMPTrack/figures/framework.jpg" width="800">
   
 **Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event based Visual Object Tracking** 
 
