@@ -22,29 +22,9 @@ Existing RGB–Event visual object tracking approaches primarily rely on convent
 
 
 
-
-# :video_camera: Demo Video
-A demo video [Youtube](https://youtu.be/FcwH7tkSXK0?si=GHOG7rfw4-GFd9dz) can be found by clicking the image below: 
-<p align="center">
-  <a href="https://youtu.be/FcwH7tkSXK0">
-    <img src="https://github.com/Event-AHU/EventVOT_Benchmark/blob/main/figures/EventVOT_youtube.png" alt="DemoVideo" width="800"/>
-  </a>
-</p> 
-
-<p align="center">
-  <img src="./figures/EventVOT_samples.jpg" alt="EventVOT_samples" width="800"/>
-</p>
-
-
-<p align="center">
-  <img src="./figures/gif.gif" alt="EventVOT_gif" width="800"/>
-</p>
-
-
-
 # :hammer: Environment 
 
-**A distillation framework for Event Stream-based Visual Object Tracking.**
+**Checkpoints.**
 
 [[HDETrack_S_ep0050.pth](https://pan.baidu.com/s/1GigDXtkSd9oE04dUM3W6Nw?pwd=wsad)] Passcode：wsad
 
