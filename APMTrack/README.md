@@ -3,7 +3,7 @@
 
 Shiao Wang, Xiao Wang*, Haonan Zhao, Jiarui Xu, Bo Jiang*, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang
 
-[[Paper]()]
+[[Paper](https://arxiv.org/abs/2601.01022)]
 [[Code](https://github.com/Event-AHU/OpenEvTracking/edit/main/APMTrack/)]
 
 
@@ -70,7 +70,14 @@ The overall performance evaluation on the COESOT dataset.
 
 # :newspaper: Citation 
 ```bibtex
-
+@misc{wang2026decouplingamplitudephaseattention,
+      title={Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event based Visual Object Tracking}, 
+      author={Shiao Wang and Xiao Wang and Haonan Zhao and Jiarui Xu and Bo Jiang and Lin Zhu and Xin Zhao and Yonghong Tian and Jin Tang},
+      year={2026},
+      eprint={2601.01022},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+}
 ```
 
 
