@@ -3,7 +3,7 @@
 
 
 
-** **Works maintained in this GitHub** 
+## **Works maintained in this GitHub** 
 
 :dart: **Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event based Visual Object Tracking**, Shiao Wang, Xiao Wang*, Haonan Zhao, Jiarui Xu, Bo Jiang*, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang, arXiv:2601.01022 
 [[Paper](https://arxiv.org/abs/2601.01022)] 
