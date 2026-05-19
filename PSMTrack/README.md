@@ -61,7 +61,7 @@ bash test.sh
 The overall performance evaluation on the EventVOT dataset.
 
 <p align="left">
-  <img width="40%" src="./figures/COESOT.png" alt="SRPR"/>
+  <img width="40%" src="./figures/eventVOT.png" alt="SRPRNPR"/>
 </p>
 
 
