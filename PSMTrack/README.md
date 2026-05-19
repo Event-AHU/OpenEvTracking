@@ -39,9 +39,9 @@ lib/train/admin/local.py  # paths about training
 lib/test/evaluation/local.py  # paths about testing
 ```
 
-Download pretrained model [[mae_pretrain_ep0300.pth.tar](https://pan.baidu.com/s/15pvqOiSLiJJMnBRVm4tIrg?pwd=AHUE)] and put it under `$/pretrained_models` for training.
+Download pretrained model [[mae_pretrain_ep0300.pth.tar](https://pan.baidu.com/s/1CfKqgpQbVFtjHUBkQctneQ?pwd=AHUE)] and put it under `$/pretrained_models` for training.
 
-Download the trained model weight from [[PSMTrack_ep0050.pth](https://pan.baidu.com/s/1CfKqgpQbVFtjHUBkQctneQ?pwd=AHUE)] and put it under `$/output/checkpoints/train/psmtrack/psmtrack_eventvot` for testing directly.
+Download the trained model weight from [[PSMTrack_ep0050.pth](https://pan.baidu.com/s/15pvqOiSLiJJMnBRVm4tIrg?pwd=AHUE)] and put it under `$/output/checkpoints/train/psmtrack/psmtrack_eventvot` for testing directly.
 
 **Tracking Results on the EventVOT dataset**
 
