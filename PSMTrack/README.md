@@ -41,11 +41,11 @@ lib/test/evaluation/local.py  # paths about testing
 
 Download pretrained model [[mae_pretrain_ep0300.pth.tar](https://pan.baidu.com/s/187w8ejD4VZZBz6buPKMTQA?pwd=AHUE)] and put it under `$/pretrained_models` for training.
 
-Download the trained model weight from [[APMTrack_ep0050.pth](https://pan.baidu.com/s/1jeNPb3Xod_4X0lshTQlSBg?pwd=AHUE)] and put it under `$/output/checkpoints/train/apmtrack/apmtrack_coesot` for testing directly.
+Download the trained model weight from [[PSMTrack_ep0050.pth](https://pan.baidu.com/s/1CfKqgpQbVFtjHUBkQctneQ?pwd=AHUE)] and put it under `$/output/checkpoints/train/psmtrack/psmtrack_eventvot` for testing directly.
 
-**Tracking Results on the COESOT dataset**
+**Tracking Results on the EventVOT dataset**
 
-[[Tracking Results](https://pan.baidu.com/s/1C4TF4SXM6AORrNDifbbY9w?pwd=AHUE)]
+[[Tracking Results]( https://pan.baidu.com/s/1JhRE7buNF_YTrEh2CFWF_g?pwd=AHUE)]
 
 ## Train & Test
 ```
