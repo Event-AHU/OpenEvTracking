@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=6 python tracking/test.py psmtrack psmtrack_eventvot --dataset eventvot --threads 1 --num_gpus 1
