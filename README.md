@@ -3,7 +3,31 @@
 
 
 
+
+
+
 ## **Works maintained in this GitHub** 
+
+
+
+:dart: **Dynamic Pondering Sparsity-aware Mixture-of-Experts Transformer for Event Stream based Visual Object Tracking**, 
+Shiao Wang, Xiao Wang*, Duoqing Yang, Wenhao Zhang, Bo Jiang*, Lin Zhu, Yonghong Tian, Bin Luo
+[[Paper](https://arxiv.org/abs/2605.06112)]
+
+Despite significant progress, RGB-based trackers remain vulnerable to challenging imaging conditions, such as low illumination and fast motion. Event cameras offer a promising alternative by asynchronously capturing pixel-wise brightness changes, providing high dynamic range and high temporal resolution. 
+However, existing event-based trackers often neglect the intrinsic spatial sparsity and temporal density of event data, while relying on a single fixed temporal-window sampling strategy that is suboptimal under varying motion dynamics. 
+In this paper, we propose an event sparsity-aware tracking framework that explicitly models event-density variations across multiple temporal scales. Specifically, the proposed framework progressively injects sparse, medium-density, and dense event search regions into a three-stage Vision Transformer backbone, enabling hierarchical multi-density feature learning. Furthermore, we introduce a sparsity-aware Mixture-of-Experts module to encourage expert specialization under different sparsity patterns, and design a dynamic pondering strategy to adaptively adjust the inference depth according to tracking difficulty. 
+Extensive experiments on FE240hz, COESOT, and EventVOT demonstrate that the proposed approach achieves a favorable trade-off between tracking accuracy and computational efficiency.
+
+<p align="center">
+  <img width="90%" src="./figures/framework.jpg">
+</p>
+
+The overall framework of the proposed Dynamic Pondering Sparsity-aware Mixture-of-Experts Transformer for event-based tracking, termed PSMTrack. According to different temporal window lengths, sparse, medium-density, and dense event representations are jointly fed into a hierarchical backbone network for progressive feature learning. Specifically, we introduce a sparsity-aware Mixture-of-Experts (MoE) module into the first block of each stage to replace the standard feed-forward network, enabling specialized modeling of feature representations with different sparsity levels. In addition, we propose a dynamic pondering strategy to adaptively determine whether to terminate inference early, thereby improving overall tracking efficiency.
+
+
+
+
 
 :dart: **Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event based Visual Object Tracking**, Shiao Wang, Xiao Wang*, Haonan Zhao, Jiarui Xu, Bo Jiang*, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang, arXiv:2601.01022 
 [[Paper](https://arxiv.org/abs/2601.01022)] 
@@ -13,6 +37,9 @@ Existing RGB–Event visual object tracking approaches primarily rely on convent
 <p align="center">
   <img width="90%" src="./APMTrack/figures/framework.jpg">
 </p> 
+
+
+
 
 
 :dart: **Spatial Orthogonal Refinement for Robust RGB-Event Visual Object Tracking**, 
