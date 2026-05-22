@@ -52,3 +52,65 @@ Robust visual object tracking (VOT) remains challenging in high-speed motion sce
 </p> 
 
 
+
+
+
+## Bib Citation 
+
+If you find these works useful for your research, please cite the following papers. 
+
+```
+@misc{wang2026PSMTrack,
+      title={Dynamic Pondering Sparsity-aware Mixture-of-Experts Transformer for Event Stream based Visual Object Tracking}, 
+      author={Shiao Wang and Xiao Wang and Duoqing Yang and Wenhao Zhang and Bo Jiang and Lin Zhu and Yonghong Tian and Bin Luo},
+      year={2026},
+      eprint={2605.06112},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2605.06112}, 
+}
+
+@misc{wang2026APMTrack,
+      title={Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event based Visual Object Tracking}, 
+      author={Shiao Wang and Xiao Wang and Haonan Zhao and Jiarui Xu and Bo Jiang and Lin Zhu and Xin Zhao and Yonghong Tian and Jin Tang},
+      year={2026},
+      eprint={2601.01022},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2601.01022}, 
+}
+
+
+@misc{huang2026SORTrack,
+      title={Spatial Orthogonal Refinement for Robust RGB-Event Visual Object Tracking}, 
+      author={Dexing Huang and Shiao Wang and Fan Zhang and Xiao Wang},
+      year={2026},
+      eprint={2603.27913},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.27913}, 
+}
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
