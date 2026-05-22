@@ -18,8 +18,9 @@ Despite significant progress, RGB-based trackers remain vulnerable to challengin
 Extensive experiments on FE240hz, COESOT, and EventVOT demonstrate that the proposed approach achieves a favorable trade-off between tracking accuracy and computational efficiency.
 
 <p align="center">
-  <img width="90%" src="[./figures/framework.jpg](https://github.com/Event-AHU/OpenEvTracking/blob/main/PSMTrack/figures/framework.jpg)">
+  <img width="90%" src="https://github.com/user-attachments/assets/459d675a-79c2-4060-a130-a8185aca3a15" />
 </p>
+
 
 The overall framework of the proposed Dynamic Pondering Sparsity-aware Mixture-of-Experts Transformer for event-based tracking, termed PSMTrack. According to different temporal window lengths, sparse, medium-density, and dense event representations are jointly fed into a hierarchical backbone network for progressive feature learning. Specifically, we introduce a sparsity-aware Mixture-of-Experts (MoE) module into the first block of each stage to replace the standard feed-forward network, enabling specialized modeling of feature representations with different sparsity levels. In addition, we propose a dynamic pondering strategy to adaptively determine whether to terminate inference early, thereby improving overall tracking efficiency.
 
