@@ -9,7 +9,7 @@ RGB-Event tracking improves localization robustness by fusing RGB appearance tex
 ### Framework 
 
 <p align="center">
-  <img width="90%" src="./figures/framework.jpg">
+  <img width="90%" src="./figures/framework.png">
 </p>
 
 An overview of the proposed APRTrack framework for missing-robust RGB-Event tracking. APRTrack first maps RGB and Event template-search inputs into token representations, then applies adversarial hierarchical perturbation and footprint-guided channel-calibrated Hopfield retrieval before the Transformer backbone to model structured degradation and introduce controlled historical compensation. The fused search representation is finally fed into the tracking head for target localization.
