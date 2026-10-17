@@ -1,6 +1,6 @@
 # UniMergeTrack
 
-UniMergeTrack is a three-stage pipeline for unified **RGB-T, RGB-E, and RGB-D tracking**: train task-specific trackers, merge shared parameters, and align each task with a frozen unified backbone.
+UniMergeTrack is a three-stage pipeline for unified **RGB-T, RGB-E, and RGB-D tracking**: train task-specific trackers, merge model parameters, and align each task with a frozen unified backbone.
 
 <p align="center">
   <img width="90%" src="https://github.com/Event-AHU/OpenEvTracking/blob/main/UniMergeTrack/figures/framework.jpg" />
