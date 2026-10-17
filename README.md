@@ -8,7 +8,15 @@
 
 ## **Works maintained in this GitHub** 
 
+:dart: **UniMergeTrack: Hierarchical Model Merging for General RGB-X Visual Object Tracking**, 
+Shiao Wang, Xiao Wang*, Yuhe Ding, Jiarui Xu, Zikang Yan, Bo Jiang*, Yonghong Tian, Jin Tang
+[[Paper](https://arxiv.org/pdf/2610.13053)]
 
+RGB-X tracking leverages complementary modalities, such as thermal infrared, event, or depth, to improve robustness under challenging conditions. Existing general-purpose RGB-X trackers typically follow two paradigms: independent task-specific training and joint training across modality combinations. However, the former suffers from knowledge isolation and model redundancy, while the latter introduces optimization interference across heterogeneous tasks. In this work, we present UniMergeTrack, a new model merging paradigm that preserves task-specific optimization while enabling effective cross-task knowledge integration. UniMergeTrack first trains modality-specific trackers independently and then performs hierarchical model merging. Specifically, transferable backbones are merged across RGB-X tasks via high-pass-filtered merging, and complemented by lightweight task-specific experts that preserve modality-specific cues. Tracking heads are merged within each task using optimal transport-guided channel alignment to mitigate hidden channel mismatch. A subsequent distribution alignment fine-tuning stage further improves compatibility between the unified backbone and task-specific heads. Extensive experiments on the LasHeR, RGBT234, VisEvent, VOT-RGBD22, COESOT, and CDTB benchmarks demonstrate that UniMergeTrack achieves state-of-the-art or competitive performance across RGB-Thermal, RGB-Event, and RGB-Depth tracking tasks, while exhibiting strong generalization to unseen datasets. The source code will be released upon acceptance.
+
+<p align="center">
+  <img width="90%" src="https://github.com/Event-AHU/OpenEvTracking/blob/main/UniMergeTrack/figures/framework.jpg" />
+</p>
 
 :dart: **Dynamic Pondering Sparsity-aware Mixture-of-Experts Transformer for Event Stream based Visual Object Tracking**, 
 Shiao Wang, Xiao Wang*, Duoqing Yang, Wenhao Zhang, Bo Jiang*, Lin Zhu, Yonghong Tian, Bin Luo
@@ -28,7 +36,7 @@ The overall framework of the proposed Dynamic Pondering Sparsity-aware Mixture-o
 
 
 
-:dart: **Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event based Visual Object Tracking**, Shiao Wang, Xiao Wang*, Haonan Zhao, Jiarui Xu, Bo Jiang*, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang, arXiv:2601.01022 
+:dart: **Decoupling Amplitude and Phase Attention in Frequency Domain for RGB-Event based Visual Object Tracking**, Shiao Wang, Xiao Wang*, Haonan Zhao, Jiarui Xu, Bo Jiang*, Lin Zhu, Xin Zhao, Yonghong Tian, Jin Tang, arXiv:2601.01022, TCSVT 2026.
 [[Paper](https://arxiv.org/abs/2601.01022)] 
 
 Existing RGB–Event visual object tracking approaches primarily rely on conventional feature-level fusion, failing to fully exploit the unique advantages of event cameras. In particular, the high dynamic range and motion-sensitive nature of event cameras are often overlooked, while low-information regions are processed uniformly, leading to unnecessary computational overhead for the backbone network. To address these issues, we propose a novel tracking framework that performs early fusion in the frequency domain, enabling effective aggregation of high-frequency information from the event modality. Specifically, RGB and event modalities are transformed from the spatial domain to the frequency domain via the Fast Fourier Transform, with their amplitude and phase components decoupled. High-frequency event information is selectively fused into RGB modality through amplitude and phase attention, enhancing feature representation while substantially reducing backbone computation. In addition, a motion-guided spatial sparsification module leverages the motion-sensitive nature of event cameras to capture the relationship between target motion cues and spatial probability distribution, filtering out low-information regions and enhancing target-relevant features. Finally, a sparse set of target-relevant features is fed into the backbone network for learning, and the tracking head predicts the final target position. Extensive experiments on three widely used RGB–Event tracking benchmark datasets, including FE108, FELT, and COESOT, demonstrate the high performance and efficiency of our method.
