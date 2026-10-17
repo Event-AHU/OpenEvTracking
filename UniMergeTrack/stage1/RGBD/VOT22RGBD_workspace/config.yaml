@@ -1,0 +1,7 @@
+registry:
+- ./sutrack_t224.ini
+- ./sutrack_b224.ini
+- ./sutrack_b384.ini
+- ./sutrack_l224.ini
+- ./sutrack_l384.ini
+stack: vot2022/rgbd
