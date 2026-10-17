@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python ./RGBT_workspace/test_rgbt_mgpus.py --script_name sutrack --dataset_name LasHeR --yaml_name sutrack_b224_rgbt --threads 0 --num_gpus 1 --mode sequential

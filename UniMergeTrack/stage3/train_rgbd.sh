@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+
+CUDA_VISIBLE_DEVICES=0 python tracking/train.py \
+  --script sutrack \
+  --config sutrack_b224_rgbd \
+  --save_dir . \
+  --mode single
+
+# bash test_rgbd.sh
