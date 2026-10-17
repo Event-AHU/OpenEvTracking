@@ -66,3 +66,8 @@ bash train_rgbd.sh
 ```
 
 **Note:** The unified backbone remains **frozen** during Stage 3; task-specific components provide adaptation for each modality.
+
+
+<p align="center">
+  <img width="90%" src="https://github.com/Event-AHU/OpenEvTracking/blob/main/UniMergeTrack/figures/Experiments.png" />
+</p>
