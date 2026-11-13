@@ -12,7 +12,7 @@ UniMergeTrack is a three-stage pipeline for unified **RGB-T, RGB-E, and RGB-D tr
 Train three trackers independently:
 
 ```bash
-cd stage1/RGBT && bash train_rgbt.sh
+cd stage1/RGBT && bash train_rgbt_l224.sh
 cd ../RGBE && bash train_rgbe_l224.sh
 cd ../RGBD && bash train_rgbd_l224.sh
 ```
