@@ -70,7 +70,7 @@ bash train_rgbd.sh
 ## Experiment Results
 
 <p align="center">
-  <img width="90%" src="https://github.com/Event-AHU/OpenEvTracking/blob/main/UniMergeTrack/figures/Experiments.png" />
+  <img width="90%" src="https://github.com/Event-AHU/OpenEvTracking/blob/main/UniMergeTrack/figures/Experiments.jpg" />
 </p>
 
 
