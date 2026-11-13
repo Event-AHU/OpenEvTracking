@@ -25,7 +25,7 @@ For each task (`rgbt`, `rgbe`, `rgbd`):
 
 1. Edit `ckpt_path` and `save_dir` in `stage2/extract_params.py`, then run `cd stage2 && python extract_params.py` on the **epoch-30** checkpoint to obtain `backbone.pth`, `head.pth`, `task.pth`, and `specific.pth`.
 2. Extract the **epoch-24** tracking head as `head_24ep.pth`.
-3. Store all five files under `stage2/checkpoints/train/sutrack/sutrack__l224_<task>/`.
+3. Store all five files under `stage2/checkpoints/train/sutrack/sutrack_l224_<task>/`.
 
 Also extract the pretrained backbone from `RELO_ep0090_l.pth.tar` to `stage2/pretrained/backbone.pth`.
 
