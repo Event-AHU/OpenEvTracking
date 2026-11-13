@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=0 python ./RGBE_workspace/test_rgbe_mgpus.py --script_name sutrack --dataset_name VisEvent --yaml_name sutrack_b224_rgbe --threads 0 --num_gpus 1 --mode sequential
