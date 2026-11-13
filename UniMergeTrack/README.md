@@ -27,7 +27,7 @@ For each task (`rgbt`, `rgbe`, `rgbd`):
 2. Extract the **epoch-24** tracking head as `head_24ep.pth`.
 3. Store all five files under `stage2/checkpoints/train/sutrack/sutrack__l224_<task>/`.
 
-Also extract the pretrained backbone from `RELO_ep0090.pth.tar` to `stage2/pretrained/backbone.pth`.
+Also extract the pretrained backbone from `RELO_ep0090_l.pth.tar` to `stage2/pretrained/backbone.pth`.
 
 Run the merge from the repository root:
 
