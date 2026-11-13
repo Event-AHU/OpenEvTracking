@@ -13,8 +13,8 @@ Train three trackers independently:
 
 ```bash
 cd stage1/RGBT && bash train_rgbt.sh
-cd ../RGBE && bash train_rgbe.sh
-cd ../RGBD && bash train_rgbd.sh
+cd ../RGBE && bash train_rgbe_l224.sh
+cd ../RGBD && bash train_rgbd_l224.sh
 ```
 
 Save the **epoch-24** and **epoch-30** checkpoints for all three tasks.
@@ -25,7 +25,7 @@ For each task (`rgbt`, `rgbe`, `rgbd`):
 
 1. Edit `ckpt_path` and `save_dir` in `stage2/extract_params.py`, then run `cd stage2 && python extract_params.py` on the **epoch-30** checkpoint to obtain `backbone.pth`, `head.pth`, `task.pth`, and `specific.pth`.
 2. Extract the **epoch-24** tracking head as `head_24ep.pth`.
-3. Store all five files under `stage2/checkpoints/train/sutrack/sutrack_b224_<task>/`.
+3. Store all five files under `stage2/checkpoints/train/sutrack/sutrack__l224_<task>/`.
 
 Also extract the pretrained backbone from `RELO_ep0090.pth.tar` to `stage2/pretrained/backbone.pth`.
 
@@ -39,8 +39,8 @@ bash merge.sh
 Key outputs under `stage2/checkpoints/` are:
 
 * `unified_backbone/unified_backbone.pth`
-* `experts/sutrack_b224_<task>_expert.pth`
-* `merged_heads/sutrack_b224_<task>_head_ot.pth`
+* `experts/sutrack__l224_<task>_expert.pth`
+* `merged_heads/sutrack__l224_<task>_head_ot.pth`
 
 ## Stage 3: Assemble and Fine-Tune
 
@@ -60,9 +60,9 @@ Then fine-tune each task:
 
 ```bash
 cd stage3
-bash train_rgbt.sh
-bash train_rgbe.sh
-bash train_rgbd.sh
+bash train_rgbt_l224.sh
+bash train_rgbe_l224.sh
+bash train_rgbd_l224.sh
 ```
 
 **Note:** The unified backbone remains **frozen** during Stage 3; task-specific components provide adaptation for each modality.
