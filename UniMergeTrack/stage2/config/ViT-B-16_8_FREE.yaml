@@ -1,0 +1,17 @@
+batch_size: 1024
+num_workers: 16
+data_location: None
+exp_name: None
+model_home: 'checkpoints/train/sutrack'
+log_root_path: ./logs
+cache_dir: None
+openclip_cachedir: None
+special:
+  filter_ratio: 0.7
+  top_k_keep: 0.02
+  top_k_remove: 0.0
+  with_align: False
+  scaling_coef: 0.5
+  shared_only: False
+  task_allocate: False
+
