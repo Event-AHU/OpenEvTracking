@@ -39,8 +39,8 @@ bash merge.sh
 Key outputs under `stage2/checkpoints/` are:
 
 * `unified_backbone/unified_backbone.pth`
-* `experts/sutrack__l224_<task>_expert.pth`
-* `merged_heads/sutrack__l224_<task>_head_ot.pth`
+* `experts/sutrack_l224_<task>_expert.pth`
+* `merged_heads/sutrack_l224_<task>_head_ot.pth`
 
 ## Stage 3: Assemble and Fine-Tune
 
